@@ -57,3 +57,11 @@ nav ul li {
   text-align: center;
   text-decoration: none;
 }
+
+ul a:hover:not(.currentSite) {
+  background-color: #dddddd;
+}
+
+.currentSite {
+  background-color: lightgrey;
+}
