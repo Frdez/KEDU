@@ -65,3 +65,27 @@ ul a:hover:not(.currentSite) {
 .currentSite {
   background-color: lightgrey;
 }
+
+
+
+
+
+
+
+
+/* footer start */
+footer {
+    background-color: #044c7f;
+    height: 10vh;
+    width: 100%;
+
+}
+
+footer h2 {
+    color: white;
+    text-align: center;
+
+
+}
+
+/* footer end */
