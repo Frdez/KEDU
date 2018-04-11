@@ -5,6 +5,14 @@ body {
   margin: 0;
 }
 
+h2 {
+    color: white;
+    text-align: center;
+    top: 25px;
+    position: relative;
+}
+
+
 .flex {
   display: flex;
 }
@@ -70,10 +78,24 @@ ul a:hover:not(.currentSite) {
 
 
 
+/* SECTION 1 START */
+#section1 {
+    background-color: #e6e6e6;
+    height: 70vh;
+    width: 100%;
+
+}
 
 
 
-/* footer start */
+/* SECTION 1 END */
+
+
+
+
+
+
+/* FOOTER START */
 footer {
     background-color: #044c7f;
     height: 10vh;
@@ -81,11 +103,4 @@ footer {
 
 }
 
-footer h2 {
-    color: white;
-    text-align: center;
-
-
-}
-
-/* footer end */
+/* FOOTER END */
