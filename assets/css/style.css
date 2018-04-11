@@ -74,7 +74,9 @@ ul a:hover:not(.currentSite) {
   background-color: lightgrey;
 }
 
-
+header nav img {
+    height: 100px;
+}
 
 
 
