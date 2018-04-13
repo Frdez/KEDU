@@ -34,56 +34,39 @@ h2 {
   flex: 1;
 }
 
-nav {
-  background-color: white;
-  flex-direction: row;
-  left: 0;
+#logo {
+  width: 6%;
+  height: 6%;
+}
+
+header {
+  background-color: #044C7F;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+ul {
   list-style-type: none;
   margin: 0;
-  overflow: hidden;
   padding: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  padding-top: 5px;
 }
 
-.header-background{
-  height:85px;
-  width: 100%;
+li {
+  display: inline;
+
 }
 
-nav ul {
-  display: flex;
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
+li a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 20px;
 }
 
-nav ul li {
-  flex: 1;
+#bruger-icon {
+  width: 6%;
+  height: 6%;
 }
-
-nav ul li a {
-    display: block;
-    color: #222222;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-nav ul li a:hover:not(.currentSite) {
-  background-color: #dddddd;
-}
-
-.currentSite {
-  background-color: lightgrey;
-}
-
-header nav img {
-    height: 100px;
-}
-
 
 
 /* SECTION 1 START */
