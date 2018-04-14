@@ -58,8 +58,15 @@ li {
 li a {
   color: #fff;
   text-decoration: none;
-  padding-right: 2vw;
+  padding: 0 1vw 0 1vw;
   font-size: 2vh;
+}
+
+.currentSite {
+	background-color: #FFFFFF;
+	padding-top: 9vh;
+	padding-bottom: 3vh;
+	color: #044C7F;
 }
 
 #bruger-icon {
