@@ -169,40 +169,6 @@ li a {
   position: relative;
   top: -10vh;
 }
-#math {
-  color: #044c7f;
-  text-align: left;
-  margin-left: 150px;
-}
-
-#overview {
-  color: #044c7f;
-  text-align: left;
-  margin-left: 150px;
-  margin-top: 100px;
-}
-
-#objectives {
-  color: #044c7f;
-  text-align: left;
-  margin-left: 150px;
-  margin-top: 100px;
-}
-
-.box {
-  width: 300px;
-  border: 0.3vh solid #044c7f;
-  border-radius: 5px;
-  padding: 5vh;
-  margin: 10vh;
-  margin-left: 150px;
-  margin-top: 10px;
-  width: 75vh;
-}
-
-img {
-  width: 10vh;
-}
 
 /* SECTION 1 END */
 
