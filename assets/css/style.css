@@ -177,14 +177,7 @@ li a {
   margin-left: 150px;
 }
 
-#overview {
-  color: #044c7f;
-  text-align: left;
-  margin-left: 150px;
-  margin-top: 100px;
-}
-
-#objectives {
+h2 {
   color: #044c7f;
   text-align: left;
   margin-left: 150px;
@@ -207,8 +200,13 @@ li a {
   margin-left: 25vh;
 }
 
-#kubo {
+#kubotext, #activitymaptext, #tagtilestext, #functionstext, #pencilstext {
   margin-left: 25vh;
+  margin-top: 10vh;
+}
+
+.Pencils {
+  margin-bottom: 10vh;
 }
 
 /* SECTION 1 END */
