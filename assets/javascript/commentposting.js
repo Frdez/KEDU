@@ -27,14 +27,21 @@ function post()
   window.location.href = "../forum.html";
 }
 
-function upvote()
+function like()
 {
-  var upvoteNumber = document.getElementsByClassName('score');
-  upvoteNumber[0].innerHTML = "667";
+  var likenumber = document.querySelector("#firstcom > p");
+  if(likenumber.innerHTML != "+105")
+  {
+  likenumber.innerHTML = "+105";
+  }
+  else
+  {
+    downvote();
+  }
 }
 
 function downvote()
 {
-  var upvoteNumber = document.getElementsByClassName('score');
-  upvoteNumber[0].innerHTML = "665";
+  var likenumber = document.querySelector("#firstcom > p");
+  likenumber.innerHTML = "+104";
 }
