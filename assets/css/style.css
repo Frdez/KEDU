@@ -384,10 +384,27 @@ li a {
  color: #044C7F;
  text-align: left;
  padding-left: 9.3vw;
- padding-top: 2vh;
  font-size: 4vh;
- width: 78vw;
- height: 2vh;
+ margin: 0;
+}
+
+.button-forum button {
+  width: 10vw;
+  height: 5vh;
+  background-color: #044C7F;
+  color: white;
+  border-radius: 10px;
+  font-size: 2vh;
+}
+
+.button-forum {
+  margin-right: 9.5vw;
+}
+
+.forum-button {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  justify-content: space-between;
 }
 
 .titleetc h4,
