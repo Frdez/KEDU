@@ -196,6 +196,7 @@ li a {
 
 .latestnews {
   justify-content: center;
+  margin-top: 6vh;
 }
 
 .boks {
@@ -295,6 +296,24 @@ li a {
 }
 
 /* SECTION 1 END */
+
+/* MEETUP */
+
+.thankyoutext p {
+  padding-left: 23vh;
+  font-size: 1.7vh;
+}
+.thankyoutext {
+  height: 30vh;
+  width: 55vw;
+  overflow: hidden;
+}
+
+.bett-picture {
+  margin: auto;
+  display: block;
+  width: 50%;
+}
 
 /* FORUM START*/
 
