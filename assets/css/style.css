@@ -433,14 +433,42 @@ li a {
 }
 
 .boks2 {
-  height: 20vh;
-  width: 40vw;
+  height: 15vh;
+  width: 43.5vw;
   border: 0.1vh black solid;
-  margin: auto;
+  margin-left: 1vw;
+}
+.boks4 {
+  height: 5vh;
+  width: 43.6vw;
+  background-color: #044C7F;
+  margin-left: 1vw;
+  justify-content: space-between;
+  color: white;
+}
+
+.boks2 p {
+  margin-left: 20px;
+}
+
+.answers i {
+  margin: 16px 10px 0 10px;
+}
+
+.views {
+  margin-left: 10px;
 }
 
 .upvote i {
-  font-size:40px;
+  font-size:4vh;
+}
+
+.upvote p {
+  font-size:2vh;
+}
+
+.upvote {
+  padding-left: 26.5vw;
 }
 
 /* FOOTER START */
