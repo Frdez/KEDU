@@ -256,17 +256,17 @@ li a {
   top: -10vh;
 }
 
-
 #math {
   color: #044c7f;
   text-align: left;
-  margin-left: 150px;
+  margin-left: 1vh;
 }
+
 
 #overview, #objectives, #materials {
   color: #044c7f;
   text-align: left;
-  margin-left: 150px;
+  margin-left: 1vh;
   margin-top: 100px;
 }
 
@@ -276,7 +276,7 @@ li a {
   border-radius: 5px;
   padding: 5vh;
   margin: 10vh;
-  margin-left: 150px;
+  margin-left: 24vh;
   margin-top: 10px;
   width: 75vh;
 }
@@ -307,6 +307,7 @@ li a {
   margin-left: 25vh;
   margin-bottom: 100px;
   width: 27vh;
+  text-decoration: none;
 }
 
 #pdf {
