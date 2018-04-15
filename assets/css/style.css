@@ -192,8 +192,9 @@ li a {
     background-color: #f7f7f7;
 }
 
-.thumbsup pp {
+.thumbsup h6 {
   margin: 0 .4vh;
+  font-size: 1.8vh;
 }
 
 .heart {
@@ -268,7 +269,36 @@ li a {
   transform: scale(1.1);
 }
 
-#bett {
+form input {
+  width: 40.2vw;
+  height: 5vh;
+  border: 0.3vh solid #044c7f;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.submitbutton {
+  width: 40.5vw;
+  margin: auto;
+  display: block;
+  height: 5vh;
+  margin-bottom: 5vh;
+  background-color: #044c7f;
+  color: white;
+}
+
+form textarea {
+  width: 40vw;
+
+  height: 30vh;
+  border: 0.3vh solid #044c7f;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.bett {
   width: 100%;
   position: relative;
   top: -10vh;

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Forum | KEDU</title>
   <meta name="description" content="">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Til responsiveness -->
   <meta name="language" content="Dansk" />
@@ -16,27 +16,30 @@
 
 <body>
   <header class="flex row">
-    <img id="logo" src="assets/pictures/kedu_white.png" alt="KEDU's logo">
+    <img id="logo" src="../assets/pictures/kedu_white.png" alt="KEDU's logo">
     <nav>
       <ul >
           <li></li>
-          <li><a class="currentSite" href="index.html">DASHBOARD</a></li>
-          <li><a href="lesson.html">LESSON PLANS</a></li>
-          <li><a href="forum.html">FORUM</a></li>
+          <li><a href="../index.html">DASHBOARD</a></li>
+          <li><a href="../lesson.html">LESSON PLANS</a></li>
+          <li><a class="currentSite" href="../forum.html">FORUM</a></li>
       </ul>
     </nav>
-    <img id="bruger-icon" src="assets/pictures/brugerbred.png" alt="bruger-icon">
+    <img id="bruger-icon" src="../assets/pictures/brugerbred.png" alt="bruger-icon">
   </header>
 
-  <form class="" action="/action_page.php" method="post">
-    <input type="text" name="Title" value="Title">
-    <textarea name="ask" rows="8" cols="80"></textarea>
-    <input type="text" name="tags" value="tags">
-  </form>
+  <section>
+    <form class="flex column" action="/action_page.php" method="post">
+      <input type="text" name="Title" value="Title">
+      <textarea name="ask" rows="8" cols="80"></textarea>
+      <input type="text" name="tags" value="tags">
+    </form>
+    <button class="submitbutton" type="button" name="submit">submit</button>
+  </section>
 
   <footer>
     <div class="first-footer flex row">
-      <img class="logo-footer" src="assets/pictures/kedu_white.png" alt="KEDU's logo">
+      <img class="logo-footer" src="../assets/pictures/kedu_white.png" alt="KEDU's logo">
       <div class="icons">
         <i class="fab fa-facebook-square facebook"></i>
         <i class="fab fa-instagram instagram"></i>
