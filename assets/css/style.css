@@ -295,6 +295,27 @@ li a {
   margin-bottom: 10vh;
 }
 
+button {
+  background-color: #044c7f;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  margin-left: 25vh;
+  margin-bottom: 100px;
+  width: 27vh;
+}
+
+#pdf {
+  width: 4vh;
+  position: absolute;
+  left: 27vh;
+  top: 1795px;
+}
+
 /* SECTION 1 END */
 
 /* MEETUP */
