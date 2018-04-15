@@ -419,7 +419,24 @@ li a {
 
 /* FORUM END */
 
+/* FORUM / POSTS */
 
+.title2 h4{
+  color: #044C7F;
+  text-align: left;
+  font-size: 4vh;
+  margin: 0;
+}
+
+.title2 {
+  padding: 13vh 0vh 0vh 60vh;
+}
+
+.boks2 {
+  height: 20vh;
+  width: 40vw;
+  border: 0.1vh black solid;
+}
 
 
 /* FOOTER START */
