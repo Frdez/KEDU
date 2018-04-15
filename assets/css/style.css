@@ -256,17 +256,17 @@ li a {
   top: -10vh;
 }
 
-
 #math {
   color: #044c7f;
   text-align: left;
-  margin-left: 150px;
+  margin-left: 1vh;
 }
+
 
 #overview, #objectives, #materials {
   color: #044c7f;
   text-align: left;
-  margin-left: 150px;
+  margin-left: 1vh;
   margin-top: 100px;
 }
 
@@ -276,7 +276,7 @@ li a {
   border-radius: 5px;
   padding: 5vh;
   margin: 10vh;
-  margin-left: 150px;
+  margin-left: 24vh;
   margin-top: 10px;
   width: 75vh;
 }
@@ -293,6 +293,28 @@ li a {
 
 .Pencils {
   margin-bottom: 10vh;
+}
+
+.button {
+  background-color: #044c7f;
+  border-radius: 10px;
+  color: white;
+  padding: 25px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  margin-left: 25vh;
+  margin-bottom: 100px;
+  width: 27vh;
+  text-decoration: none;
+}
+
+#pdf {
+  width: 4vh;
+  position: absolute;
+  left: 29vh;
+  top: 1790px;
 }
 
 /* SECTION 1 END */
