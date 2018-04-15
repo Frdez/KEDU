@@ -295,7 +295,7 @@ li a {
   margin-bottom: 10vh;
 }
 
-button {
+.button {
   background-color: #044c7f;
   border-radius: 10px;
   color: white;
@@ -312,8 +312,8 @@ button {
 #pdf {
   width: 4vh;
   position: absolute;
-  left: 27vh;
-  top: 1795px;
+  left: 29vh;
+  top: 1790px;
 }
 
 /* SECTION 1 END */
