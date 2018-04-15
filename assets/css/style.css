@@ -278,19 +278,22 @@ form input {
   margin-bottom: 1vh;
 }
 
+form input:first-child {
+  margin-top: 5vh;
+}
+
 .submitbutton {
   width: 40.5vw;
   margin: auto;
   display: block;
   height: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 20vh;
   background-color: #044c7f;
   color: white;
 }
 
 form textarea {
   width: 40vw;
-
   height: 30vh;
   border: 0.3vh solid #044c7f;
   margin: auto;
