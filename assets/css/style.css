@@ -436,8 +436,12 @@ li a {
   height: 20vh;
   width: 40vw;
   border: 0.1vh black solid;
+  margin: auto;
 }
 
+.upvote i {
+  font-size:40px;
+}
 
 /* FOOTER START */
 .icons i {
