@@ -192,6 +192,24 @@ li a {
     background-color: #f7f7f7;
 }
 
+.thumbsup pp {
+  margin: 0 .4vh;
+}
+
+.heart {
+  margin-right: 1vw;
+  color: white;
+  margin-bottom: 1vh;
+}
+
+.thumbsup {
+  margin-left: 1vw;
+  color: white;
+}
+
+.flex.between {
+  justify-content: space-between;
+}
 
 
 .latestnews {
