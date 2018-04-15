@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Forum | KEDU</title>
+  <title>Submit | KEDU</title>
   <meta name="description" content="">
   <link rel="stylesheet" href="../assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,11 +30,11 @@
 
   <section>
     <form class="flex column" action="/action_page.php" method="post">
-      <input type="text" name="Title" value="Title">
-      <textarea name="ask" rows="8" cols="80"></textarea>
-      <input type="text" name="tags" value="tags">
+      <input type="text" name="Title" placeholder="Title...">
+      <textarea name="ask" rows="8" cols="80" placeholder="Write your question here..."></textarea>
+      <input type="text" name="tags" placeholder="Tags...">
     </form>
-    <button class="submitbutton" type="button" name="submit">submit</button>
+    <button class="submitbutton" type="button" onclick="post()" name="submit">submit</button>
   </section>
 
   <footer>
@@ -53,6 +53,6 @@
     </div>
   </footer>
 
-
+  <script src="../assets/javascript/commentposting.js"></script>
 </body>
 </html>
