@@ -12,6 +12,18 @@ if(document.title == "Forum | KEDU")
   }
 }
 
+if(document.title == "Question | KEDU" && localStorage.title != null)
+{
+  var tekstbox = document.querySelector("#tekstbox1 > p");
+  tekstbox.innerHTML = "<h4>" + localStorage.title + "</h4>" + "<br>" + localStorage.question;
+
+  var numViews = 4;
+  localStorage.setItem("views", numViews);
+  var viewCount = document.querySelector(".views");
+  viewCount.innerHTML = numViews + "views"
+  console.log(numViews);
+}
+
 function post()
 {
   //    <input type="text" name="title"> fra html
