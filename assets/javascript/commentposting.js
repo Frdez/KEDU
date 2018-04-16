@@ -5,9 +5,11 @@ if(document.title == "Forum | KEDU")
   var newPosttitle = document.querySelector("#newestQuestion > h4");
   newPosttitle.innerHTML = localStorage.title;
 
+  if(localStorage.title != "Noget smart tekst her")
+  {
   var newPosttime = document.querySelector("#newestQuestion > p");
   newPosttime.innerHTML = "Just Now";
-
+  }
 }
 
 function post()
@@ -27,9 +29,10 @@ function post()
   window.location.href = "../forum.html";
 }
 
-function like()
+function like(clicked_id)
 {
-  var likenumber = document.querySelector("#firstcom > p");
+  var likenumber = document.querySelector("[id=" + CSS.escape(clicked_id) + "] > p");
+  //var likenumber = document.querySelector("#firstcom > p");
   if(likenumber.innerHTML != "+105")
   {
   likenumber.innerHTML = "+105";
