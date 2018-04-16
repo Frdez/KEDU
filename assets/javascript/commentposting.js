@@ -17,11 +17,15 @@ if(document.title == "Question | KEDU" && localStorage.title != null)
   var tekstbox = document.querySelector("#tekstbox1 > p");
   tekstbox.innerHTML = "<h4>" + localStorage.title + "</h4>" + "<br>" + localStorage.question;
 
-  var numViews = 4;
-  localStorage.setItem("views", numViews);
-  var viewCount = document.querySelector(".views");
-  viewCount.innerHTML = numViews + "views"
-  console.log(numViews);
+  if(localStorage.views == null)
+  {
+  localStorage.setItem("views", 1);
+  }
+
+  localStorage.setItem("views", parseInt(localStorage.getItem('views'))+1);
+  console.log(localStorage.views);
+  var viewCount = document.querySelector(".views > p");
+  viewCount.innerHTML = localStorage.views + " " + "views"
 }
 
 function post()
