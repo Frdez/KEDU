@@ -45,22 +45,40 @@ function post()
   window.location.href = "../forum.html";
 }
 
+function upvote(clicked_id)
+{
+  var upvoteNumber = document.querySelector("[id=" + CSS.escape(clicked_id) + "] + p");
+  console.log(upvoteNumber)
+  if(upvoteNumber != 0)
+  {
+    upvoteNumber.innerHTML = "0";
+  }
+  else downvote(clicked_class);
+}
+
+function downvote()
+{
+  var upvoteNumber = document.querySelector("[class=" + CSS.escape(clicked_class) + "] + p");
+  upvoteNumber.innerHTML = "+1";
+}
+
+
 function like(clicked_id)
 {
-  var likenumber = document.querySelector("[id=" + CSS.escape(clicked_id) + "] > p");
+  var likeNumber = document.querySelector("[id=" + CSS.escape(clicked_id) + "] > p");
   //var likenumber = document.querySelector("#firstcom > p");
-  if(likenumber.innerHTML != "+105")
+  if(likeNumber.innerHTML != "+105")
   {
-  likenumber.innerHTML = "+105";
+  likeNumber.innerHTML = "+105";
   }
   else
   {
-    downvote(clicked_id);
+    unlike(clicked_id);
   }
 }
 
-function downvote(sameID)
+function unlike(sameID)
 {
-  var likenumber = document.querySelector("[id=" + CSS.escape(sameID) + "] > p");
-  likenumber.innerHTML = "+104";
+  var likeNumber = document.querySelector("[id=" + CSS.escape(sameID) + "] > p");
+  likeNumber.innerHTML = "+104";
 }
