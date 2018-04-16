@@ -313,12 +313,17 @@ form textarea {
   margin-left: 1vh;
 }
 
+#tidslinje {
+  width: 120vh;
+  margin-left: 23.5vh;
+
+}
 
 #overview, #objectives, #materials {
   color: #044c7f;
   text-align: left;
   margin-left: 1vh;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .lessonbox {
@@ -328,7 +333,7 @@ form textarea {
   padding: 5vh;
   margin: 10vh;
   margin-left: 24vh;
-  margin-top: 10px;
+  margin-top: px;
   width: 75vh;
 }
 
