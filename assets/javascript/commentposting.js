@@ -39,12 +39,12 @@ function like(clicked_id)
   }
   else
   {
-    downvote();
+    downvote(clicked_id);
   }
 }
 
-function downvote()
+function downvote(sameID)
 {
-  var likenumber = document.querySelector("#firstcom > p");
+  var likenumber = document.querySelector("[id=" + CSS.escape(sameID) + "] > p");
   likenumber.innerHTML = "+104";
 }
