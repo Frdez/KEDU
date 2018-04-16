@@ -7,7 +7,7 @@ if(document.title == "Forum | KEDU")
 
   if(localStorage.title != "Noget smart tekst her")
   {
-  var newPosttime = document.querySelector("#newestQuestion > p");
+  var newPosttime = document.querySelector("#newestQuestion + p");
   newPosttime.innerHTML = "Just Now";
   }
 }
