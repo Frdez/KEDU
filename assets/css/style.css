@@ -405,6 +405,11 @@ form textarea {
   color: white;
 }
 
+.titleetc a {
+  text-decoration: none;
+  color: black;
+}
+
 .bigbox h1 {
   padding-top: 50px;
   font-size: 4vh;
